@@ -2,28 +2,35 @@
 % Please edit documentation in R/plotprobs.R
 \name{plotprobs}
 \alias{plotprobs}
-\title{Plots results from select}
+\title{Plots results from the select function}
 \usage{
 plotprobs(result, traits)
 }
 \arguments{
 \item{result}{A saved object from function select()}
 
-\item{traits}{A 2D matrix of trait values}
+\item{traits}{A matrix of trait values where traits are columns and rows are species. Maximum of 2 traits.}
 }
 \value{
-3D barplot that illustrates probabilities of species located within a 2D trait space
+2D barplot of probabilities for each species or 3D barplot that illustrates probabilities of species located within a 2D trait space
 }
 \description{
 This function plots results (species probabilities/optimum solutions) from the select() function
 }
 \examples{
+### 1 trait constraint with maximum functional diversity and entropy
+Spp=5 #S = number of species
+trait <- as.matrix(data.frame(trait=c(1:Spp)))
+rownames(trait)=c(letters[1:nrow(trait)])
+result1 = select(t2c=trait, constraints=c(3.5), t2d=trait, obj="QH", capd=FALSE)
+plotprobs(result1,trait)
+
 ##### 2 traits: Constrain trait X to value 2.5, diversify trait Y
 trait.matrix <- as.matrix(cbind(traitX=c(rep(1,3),rep(2,3),rep(3,3)),
                 traitY=c(rep(c(1,2,3),3))))
 rownames(trait.matrix)=c(letters[1:9])
-result3 = select(t2c=as.matrix(trait.matrix[,1]),constraints=c(2.5),
-          t2d=as.matrix(trait.matrix[,2]),capd=TRUE,obj="FDandE")
-plotprobs(result3,trait.matrix)
+result2 = select(t2c=as.matrix(trait.matrix[,1]),constraints=c(2.5),
+          t2d=as.matrix(trait.matrix[,2]),capd=TRUE,obj="QH")
+plotprobs(result2,trait.matrix)
 }
 

@@ -1,6 +1,6 @@
-45193a1997cb8159725f5c01c1f42c88 *DESCRIPTION
+d3983345cd23ab0be137ff1a404db6d2 *DESCRIPTION
 21be850dccb8b14cc99b77806cbd5114 *NAMESPACE
-01b9872ae5826d137c0d60fc76e0d1f2 *R/plotprobs.R
-57f191a4b051a5addd3fb90f8cba64dd *R/select.R
-3f7df75fb580cca2a177c6f49d7242db *man/plotprobs.Rd
-cde0108633544af14fec68f6f1c6af58 *man/select.Rd
+d00715c01054346328edc575c0ed74f7 *R/plotprobs.R
+c32439f9c16989ab923272f499f61d3e *R/select.R
+992e060f0ef675d9a9e6e5b5d8770352 *man/plotprobs.Rd
+35ce37dcadc4646c573ade88d2d4c308 *man/select.Rd

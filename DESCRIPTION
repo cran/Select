@@ -1,10 +1,10 @@
 Package: Select
-Title: Estimates Species Abundances Based on Functional Traits
-Version: 1.0
+Title: Determines Species Probabilities Based on Functional Traits
+Version: 1.1
 Authors@R: person("Daniel Laughlin", role = c("aut", "cre"),
                      email = "d.laughlin@waikato.ac.nz")
 Maintainer: Daniel Laughlin <d.laughlin@waikato.ac.nz>
-Description: For estimating species abundances that satisfy a given
+Description: For determining species probabilities that satisfy a given
     functional trait profile. Restoring resilient ecosystems requires a
     flexible framework for selecting assemblages that are based on the functional
     traits of species. However, current trait-based models have been biased toward
@@ -17,13 +17,13 @@ Description: For estimating species abundances that satisfy a given
     optimise the entropy of the community, and can optimise both functional diversity
     and entropy simultaneously.
 Depends: R (>= 3.3.2)
-Imports: Rsolnp, latticeExtra, grDevices, stats, lattice
+Imports: Rsolnp, latticeExtra, grDevices, stats, lattice, graphics
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1
 NeedsCompilation: no
-Packaged: 2017-01-26 00:45:33 UTC; daniell
+Packaged: 2017-02-15 23:06:11 UTC; daniell
 Author: Daniel Laughlin [aut, cre]
 Repository: CRAN
-Date/Publication: 2017-01-26 12:08:07
+Date/Publication: 2017-02-16 07:55:35
