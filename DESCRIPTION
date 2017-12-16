@@ -1,9 +1,9 @@
 Package: Select
 Title: Determines Species Probabilities Based on Functional Traits
-Version: 1.1
+Version: 1.2
 Authors@R: person("Daniel Laughlin", role = c("aut", "cre"),
-                     email = "d.laughlin@waikato.ac.nz")
-Maintainer: Daniel Laughlin <d.laughlin@waikato.ac.nz>
+                     email = "danielclaughlin@gmail.com")
+Maintainer: Daniel Laughlin <danielclaughlin@gmail.com>
 Description: For determining species probabilities that satisfy a given
     functional trait profile. Restoring resilient ecosystems requires a
     flexible framework for selecting assemblages that are based on the functional
@@ -21,9 +21,9 @@ Imports: Rsolnp, latticeExtra, grDevices, stats, lattice, graphics
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-02-15 23:06:11 UTC; daniell
+Packaged: 2017-12-15 19:33:31 UTC; danielclaughlin
 Author: Daniel Laughlin [aut, cre]
 Repository: CRAN
-Date/Publication: 2017-02-16 07:55:35
+Date/Publication: 2017-12-16 22:01:25 UTC
