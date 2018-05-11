@@ -1,4 +1,4 @@
-62067207160e4d857a09b03f3f1b4f65 *DESCRIPTION
+bf7ccd14c6098253345440e069b25038 *DESCRIPTION
 212a038063d74f253ae6e103f4882e74 *NAMESPACE
 84f2609c6bc1adb61101ffca31f11d85 *R/Select-package.r
 debd877cd057bb3c389887f6b285cf77 *R/pineforest-data.R
@@ -12,7 +12,7 @@ d073988efbb7bc68b70346a7edb7da02 *R/tropicalforest-data.R
 15315e5b5fc39df164caade1ab26c55f *data/tropicalforest.rda
 09fb5e6cc820a8637c98fccc5df10a73 *inst/doc/selectSpecies.R
 6cffcdd8eb3b3445fa5b844bfb41d2f8 *inst/doc/selectSpecies.Rmd
-092108d64c4ba957b19b8342179b0e7d *inst/doc/selectSpecies.html
+88e96be1d48b45d436cee716c4755953 *inst/doc/selectSpecies.html
 a57e63866ee26805691a60c4157aac1b *man/Select.Rd
 f0bd8c11da85882a87bab37e8288fa88 *man/pineforest.Rd
 104c89a8f7d973337a871879a8da44cf *man/plotProbs.Rd
