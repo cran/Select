@@ -4,7 +4,9 @@
 \name{pineforest}
 \alias{pineforest}
 \title{Functional trait data for understory species in ponderosa pine forest}
-\format{dataframe of 46 species and 2 traits}
+\format{
+dataframe of 46 species and 2 traits
+}
 \source{
 Laughlin, D.C., J.J. Leppert, M.M. Moore, and C.H. Sieg. 2010. A multi-trait test of the leaf-height-seed plant strategy scheme with 133 species from a pine forest flora. Functional Ecology 24:493-501.
 }

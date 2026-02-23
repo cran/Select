@@ -4,8 +4,15 @@
 \alias{selectSpecies}
 \title{Select species based on traits}
 \usage{
-selectSpecies(t2c = NULL, constraints = NULL, t2d, obj = c("QH", "Q",
-  "H"), phi = 0.5, capd = FALSE, euclid = TRUE)
+selectSpecies(
+  t2c = NULL,
+  constraints = NULL,
+  t2d,
+  obj = c("QH", "Q", "H"),
+  phi = 0.5,
+  capd = FALSE,
+  euclid = TRUE
+)
 }
 \arguments{
 \item{t2c}{"Traits to constrain": A matrix of species trait values, where species are organized as rows and traits as columns. These should be numeric arrays, and no missing values are tolerated. Ordinal data will yield meaningful results, but nominal data entered as numeric vectors are invalid. Row and column names are optional. This matrix can be any dimension, but the number of traits should be less than the number of species.}

@@ -4,10 +4,22 @@
 \alias{plotProbs}
 \title{Plots results from the selectSpecies function}
 \usage{
-plotProbs(result, traits, colors = c("lightblue", "blue"), xlim = NULL,
-  ylim = NULL, xlab = NULL, ylab = NULL, zlab = "Probability",
-  distance = 0.3, cex.lab = 1.5, box.col = "transparent", xbase = 0.5,
-  ybase = 0.5, ...)
+plotProbs(
+  result,
+  traits,
+  colors = c("lightblue", "blue"),
+  xlim = NULL,
+  ylim = NULL,
+  xlab = NULL,
+  ylab = NULL,
+  zlab = "Probability",
+  distance = 0.3,
+  cex.lab = 1.5,
+  box.col = "transparent",
+  xbase = 0.5,
+  ybase = 0.5,
+  ...
+)
 }
 \arguments{
 \item{result}{A saved object from function selectSpecies()}

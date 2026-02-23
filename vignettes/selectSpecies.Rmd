@@ -1,7 +1,7 @@
 ---
 title: "Vignette for using the selectSpecies( ) function"
 author: "Daniel C. Laughlin, Loic Chalmandrier, Chaitanya Joshi, Michael Renton, John M. Dwyer, and Jennifer L. Funk"
-date: "30 March 2018"
+date: "23 Feb 2026"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Vignette for using the selectSpecies( ) function}
@@ -204,7 +204,7 @@ Restoring ecosystems that are resilient to drought is often an important managem
 Using a dataset of 48 species from a serpentine grassland in California, we first log transform and then standardize each variable to unit variance.
 ```{r}
 ### load serpentine data (available in the R package) 
-serpentine <- read.csv("traits.serpentine.california.csv", header = TRUE, row.names = 1)
+data(serpentine)
 
 ### take logs and rescale to unit variance
 wue <- data.frame(wue = scale(log(serpentine$wue)))

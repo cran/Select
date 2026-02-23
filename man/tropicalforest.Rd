@@ -4,7 +4,9 @@
 \name{tropicalforest}
 \alias{tropicalforest}
 \title{Functional trait data for tree species in tropical forest}
-\format{dataframe of 41 species and 2 traits}
+\format{
+dataframe of 41 species and 2 traits
+}
 \source{
 McCarthy, James K. 2018. Predicting the diversity and functional composition of woody plant communities under climate change PhD Thesis, School of Biological Sciences, The University of Queensland. Advisor: Dr. John Dwyer. doi:10.14264/uql.2018.134
 }

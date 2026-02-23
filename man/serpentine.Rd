@@ -4,7 +4,9 @@
 \name{serpentine}
 \alias{serpentine}
 \title{Functional trait data for species in serpentine grassland}
-\format{dataframe of 48 species and 2 traits}
+\format{
+dataframe of 48 species and 2 traits
+}
 \source{
 Funk, J.L. & Wolf, A.A. 2016. Testing the trait based community framework: Do functional traits predict competitive outcomes? Ecology 97:2206-2211.
 }
