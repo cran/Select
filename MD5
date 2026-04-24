@@ -1,9 +1,9 @@
-0b9792c6b8c32b35500650d56c3eda38 *DESCRIPTION
+a8e925c390fb0babea28c8769f76bd2c *DESCRIPTION
 212a038063d74f253ae6e103f4882e74 *NAMESPACE
 26751669b1ab4fce6a995df90b172f20 *R/Select-package.r
 debd877cd057bb3c389887f6b285cf77 *R/pineforest-data.R
 2caf51e4a79089035e14338ce49a1312 *R/plotProbs.R
-c26b7839cac8cbe528e5a3e12fbc1a22 *R/selectSpecies.R
+d673ff2676c0aeddc9050ac77166749f *R/selectSpecies.R
 e03d8e6451b639f838690893d9cfb909 *R/serpentine-data.R
 d073988efbb7bc68b70346a7edb7da02 *R/tropicalforest-data.R
 92cb1506b79f64a4c8b120b92b01e4f0 *build/vignette.rds
@@ -11,8 +11,8 @@ d073988efbb7bc68b70346a7edb7da02 *R/tropicalforest-data.R
 9b5dbd0aa772fb60511722b9e2cbf599 *data/serpentine.rda
 15315e5b5fc39df164caade1ab26c55f *data/tropicalforest.rda
 589987fcf9bb458f601f6c9472a7bdef *inst/doc/selectSpecies.R
-458ffdf7f92d283257b3cfdaca887995 *inst/doc/selectSpecies.Rmd
-92bcaf4c711bdb5f70d553b19afb1db3 *inst/doc/selectSpecies.html
+0fa3d9fcf8d6d1dc54290f95a8f12766 *inst/doc/selectSpecies.Rmd
+c2f3a1553e182d18bc7c8f00c89d0940 *inst/doc/selectSpecies.html
 e15290113ee930b105b263a616518b5c *man/pineforest.Rd
 a32752719aab9024e6fdfcfd4a90e42e *man/plotProbs.Rd
 ba7b85fdec03f8bde820ce712b4b40a7 *man/selectSpecies.Rd
@@ -20,5 +20,5 @@ e6bea0375dd31fc10257171f61b66642 *man/serpentine.Rd
 0c755c93a8fb7eed4acc9d8051c0e9b3 *man/tropicalforest.Rd
 a592b2a395e5ac7ecc9b9ecdd7fa7b0f *tests/testthat.R
 1b454d99dff95f4acb072c833960d3de *tests/testthat/test_selectSpecies.R
-458ffdf7f92d283257b3cfdaca887995 *vignettes/selectSpecies.Rmd
+0fa3d9fcf8d6d1dc54290f95a8f12766 *vignettes/selectSpecies.Rmd
 3e0c10947c81bae2170c43e27eab5193 *vignettes/traits.serpentine.california.csv

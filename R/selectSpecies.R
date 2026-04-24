@@ -88,8 +88,13 @@ selectSpecies <- function (t2c = NULL, constraints = NULL, t2d, obj = c("QH","Q"
   }
   else if (inherits(t2d, "dist")) {
     d <- t2d
-    if (is.null(names(t2d))) 
-      warning("\"t2d\" name vector (species) is empty")
+    if(inherits(names(t2d), "list")){
+    	if (is.null(rownames(t2d))) 
+    		warning("\"t2d\" rowname vector (species) is empty")
+    } else{
+    	if (is.null(names(t2d))) 
+    		warning("\"t2d\" name vector (species) is empty")	
+    }
   }
   else {
     stop("object \"t2d\" must be a numerical trait matrix or a \"dist\" matrix")
@@ -195,7 +200,11 @@ selectSpecies <- function (t2c = NULL, constraints = NULL, t2d, obj = c("QH","Q"
     result$cwm_t2d <- as.matrix(res$pars %*% t2d)
   }
   else {
-    rownames(result$prob) <- names(t2d)
+  	if(inherits(names(t2d), "list")){
+  		rownames(result$prob) <- rownames(t2d)
+  	} else{
+  		rownames(result$prob) <- names(t2d)	
+  	}
   }
   if (!is.null(t2c)) {
     result$cwm_t2c <- as.matrix(res$pars %*% t2c)

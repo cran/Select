@@ -1,6 +1,6 @@
 Package: Select
 Title: Determines Species Probabilities Based on Functional Traits
-Version: 1.5
+Version: 1.6
 Authors@R: c(
     person("Daniel", "Laughlin", email = "danielclaughlin@gmail.com", role = c("cre","aut")),
     person("Loic", "Chalmandrier", email = "lchalman@uwyo.edu", role = "aut"))
@@ -19,7 +19,7 @@ Description: The objective of these functions is to derive a species assemblage
     can also be used to generate experimental assemblages to test the effects
     of community-level traits on community dynamics and ecosystem function. The
     method is based on theory discussed in Laughlin (2014, Ecology Letters)
-    <doi:10.1111/ele.12288>.
+    and Laughlin et al. (2018, Methods in Ecology and Evolution).
 Depends: R (>= 3.3.0)
 Imports: Rsolnp, latticeExtra, grDevices, stats, lattice, graphics,
         ade4
@@ -30,9 +30,9 @@ RoxygenNote: 7.3.3
 Suggests: knitr, rmarkdown, testthat, FD
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2026-02-23 15:55:13 UTC; danielclaughlin
+Packaged: 2026-04-23 19:45:38 UTC; danielclaughlin
 Author: Daniel Laughlin [cre, aut],
   Loic Chalmandrier [aut]
 Maintainer: Daniel Laughlin <danielclaughlin@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-02-23 19:20:08 UTC
+Date/Publication: 2026-04-24 06:50:02 UTC

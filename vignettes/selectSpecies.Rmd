@@ -1,7 +1,7 @@
 ---
 title: "Vignette for using the selectSpecies( ) function"
 author: "Daniel C. Laughlin, Loic Chalmandrier, Chaitanya Joshi, Michael Renton, John M. Dwyer, and Jennifer L. Funk"
-date: "23 Feb 2026"
+date: "23 April 2026"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Vignette for using the selectSpecies( ) function}
